@@ -504,9 +504,6 @@ a{
 
 /* ABOUT PAGE STYLING */
 
-.main {
-}
-
 .about {
     background-image: url(./../img/about_us.png);
     object-fit: contain;
@@ -552,9 +549,6 @@ a{
 
 .commitment__pic {
     margin-right: 125px;
-}
-
-.commitment__info {
 }
 
 .commitment__heading {
@@ -711,10 +705,39 @@ a{
     color: #333D4B;
 }
 
-.canada {
-    
+/* End of about page styling */
+
+/* Plan creator page styling */
+
+.plan {
+    margin-bottom: 164px;
 }
 
-.australia {
-    
+.create__plan {
+    background-image: url(./../img/plan__coffee.png);
+    object-fit: contain;
+    height: 450px;
+    padding-top: 134px;
+    padding-left: 85px;
 }
+
+.plan__heading {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.plan__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 445px;
+}
+
