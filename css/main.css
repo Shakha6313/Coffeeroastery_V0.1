@@ -68,6 +68,8 @@ a{
     color: #FEFCF7;
 }
 
+/* INDEX PAGE STYLING */
+
 /* HEADER SECTION */
 
 .header {
@@ -495,3 +497,224 @@ a{
 }
 
 /* END OF FOOTER SECTION */
+
+/* END OF INDEX STYLING PAGE */
+
+
+
+/* ABOUT PAGE STYLING */
+
+.main {
+}
+
+.about {
+    background-image: url(./../img/about_us.png);
+    object-fit: contain;
+    height: 450px;
+    padding-top: 137px;
+    padding-left: 85px;
+    margin-bottom: 168px;
+}
+
+.about__heading {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 24px;
+}
+
+.about__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    width: 445px;
+}
+
+/* End of about us section */
+
+/* Commitment section */
+
+.commitment{
+    margin-bottom: 244px;
+}
+
+.commitment__container {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    display: flex;
+}
+
+.commitment__pic {
+    margin-right: 125px;
+}
+
+.commitment__info {
+}
+
+.commitment__heading {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+    margin-top: 90px;
+    margin-bottom: 32px;
+}
+
+.commitment__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 540px;
+}
+
+/* End of commitment section */
+
+/* Quality section */
+
+.quality {
+    background-color: #333D4B;
+    border-radius: 10px;
+    margin-bottom: 170px;
+    
+}
+
+.quality__info {
+    position: relative;
+    padding-top: 100px;
+    padding-left: 85px;
+}
+
+
+
+.quality__info-heading {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.quality__info-text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 540px;
+    padding-bottom: 176px;
+}
+
+.quality__right {
+    background-image: url(./../img/quality.png);
+    background-repeat: no-repeat;
+    width: 445px;
+    height: 474px;
+    position: absolute;
+    top: 0;
+    left: 60%;
+    transform: translateX(720px);
+    transform: translateY(-80px);
+    
+}
+
+/* End of quality section */
+
+/* Headquarters section */
+
+.headquarters {
+    margin-bottom: 168px;
+}
+
+.headquarters__container {
+    max-width: 1085px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.headquarters__heading {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px;
+}
+
+.location__list {
+    display: flex;
+    padding-top: 95px;
+}
+
+.list__item {
+    margin-right: 108px;
+}
+
+.list__item > h3{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-bottom: 24px;
+}
+
+.uk__location::before {
+    content: url(./../img/kingdom.svg);
+    position: absolute;
+    width: 51px;
+    height: 49px;
+    object-fit: contain;
+    transform: translateY(-100px);
+}
+
+.canada__location::before{
+    content: url(./../img/canada.svg);
+    position: absolute;
+    width: 51px;
+    height: 49px;
+    object-fit: contain;
+    transform: translateY(-100px);
+}
+
+.australia__location::before{
+    content: url(./../img/australia.svg);
+    position: absolute;
+    width: 51px;
+    height: 49px;
+    object-fit: contain;
+    transform: translateY(-100px);
+}
+
+.location__inner-list {
+}
+
+.inner__list-itme {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.canada {
+    
+}
+
+.australia {
+    
+}
